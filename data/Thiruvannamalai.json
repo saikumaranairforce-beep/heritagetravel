@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "name_en": "Meenakshi Homestay",
+    "name_ta": "மீனாட்சி ஹோம்ஸ்டே",
+    "service_en": "Homestay",
+    "service_ta": "தங்கும் விடுதி",
+    "rates_en": "₹1200 / night",
+    "rates_ta": "இரவு ஒன்றுக்கு ₹1200",
+    "phone": "919876543210"
+  },
+
+    {  "id": 2,
+        "name_en": "Ranga CABS service ",
+        "name_ta": "ராஙா",
+        "service_en": "Cab/Auto",
+        "service_ta": "டாக்ஸி/ஆட்டோ",
+        "rates_en": "rs 15 ",
+        "rates_ta": "கி மி 40 ரு",
+        "phone": "86799"
+    },
+  
+    { "id": 3,
+        "name_en": "kumakonam",
+        "name_ta": "கும்ப",
+        "service_en": "Homestay",
+        "service_ta": "தங்கும் விடுதி",
+        "rates_en": "rs 450",
+        "rates_ta": "கி மி 49 ரு",
+        "phone": "87659"
+    },
+
+    { "id": 4,
+        "name_en": "test ",
+        "name_ta": "உலக்",
+        "service_en": "Tour Guide",
+        "service_ta": "தங்கும் விடுதி",
+        "rates_en": "Rs400",
+        "rates_ta": "ரரு 300",
+        "phone": "488930"
+    },
+    { "id": 5,
+        "name_en": "ranga",
+        "name_ta": "இய்தி",
+        "service_en": "Cab/Auto",
+        "service_ta": "டாக்ஸி/ஆட்டோ",
+        "rates_en": "rs 58",
+        "rates_ta": "ரரு400",
+        "phone": "968699"
+    }
+
+
+]

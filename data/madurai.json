@@ -1,0 +1,53 @@
+[
+    {
+        "name_en": "Meenakshi Temple Autos",
+        "name_ta": "மீனாட்சி அம்மன் கோவில் ஆட்டோ",
+        "service_en": "Cab/Auto",
+        "service_ta": "டாக்ஸி/ஆட்டோ",
+        "rates_en": "₹200 for local trip",
+        "rates_ta": "உள்ளூர் பயணம் ₹200",
+        "phone": "919486106299"
+    },
+    {
+        "name_en": "Heritage Home Stay",
+        "name_ta": "ஹெரிடேஜ் ஹோம் ஸ்டே",
+        "service_en": "Homestay",
+        "service_ta": "தங்கும் விடுதி",
+        "rates_en": "₹1500 / night",
+        "rates_ta": "இரவு ஒன்றுக்கு ₹1500",
+        "phone": "919486106299"
+    },
+
+
+    {
+        "name_en": "ramana cabs ",
+        "name_ta": "ரமனா ",
+        "service_en": "Tour Guide",
+        "service_ta": "சுற்றுலா வழிகாட்டி",
+        "rates_en": "rs 400 per day",
+        "rates_ta": "400 ரு",
+        "phone": "9486106299"
+    },
+    {
+        "name_en": "kumaran",
+        "name_ta": "குமரன்",
+        "service_en": "Tour Guide",
+        "service_ta": "டாக்ஸி/ஆட்டோ",
+        "rates_en": "Rs 600 per half day",
+        "rates_ta": "600 ரு",
+        "phone": "9486106299"
+    },
+
+    
+    {
+        "name_en": "avaniapuram",
+        "name_ta": "அவனி",
+        "service_en": "Cab/Auto",
+        "service_ta": "டாக்ஸி/ஆட்டோ",
+        "rates_en": "Rs 70/ per  dy ",
+        "rates_ta": "ரு 50 ஒரு நாள்",
+        "phone": "9486106299"
+    }
+
+]
+

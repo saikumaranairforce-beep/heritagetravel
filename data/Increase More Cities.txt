@@ -1,0 +1,59 @@
+2. How to Increase More Cities
+To add a new city (for example, Thanjavur), you need to update three places:
+
+A. Update index.html (The Dropdown)
+Add the new city to your <select> menu:
+
+HTML
+<select id="citySelect" onchange="loadCityData()" ...>
+    <option value="madurai">Madurai / மதுரை</option>
+    <option value="kanchi">Kanchipuram / காஞ்சிபுரம்</option>
+    <option value="kumbakonam">Kumbakonam / கும்பகோணம்</option>
+    <option value="thanjavur">Thanjavur / தஞ்சாவூர்</option> </select>
+B. Update app.js (The Map URL)
+Add the new Google Maps iframe URL to your mapUrls list inside the updateMap function:
+
+JavaScript
+const mapUrls = {
+    'madurai': 'https://www.google.com/maps/embed?pb=...',
+    'kanchi': 'https://www.google.com/maps/embed?pb=...',
+    'kumbakonam': 'https://www.google.com/maps/embed?pb=...',
+    'thanjavur': 'https://www.google.com/maps/embed?pb=...' // Add New Map URL
+};
+C. Create the Data File
+Create a new file named data/thanjavur.json and add your vendor data there using the same format as above.
+
+
+_______________________________________________________
+
+through admin pannel how to add cities 
+
+3. Adding Cities via Admin Panel
+To make the Admin Panel more flexible so you can select which city you are generating data for, you can add a "City Select" dropdown to your admin.html.
+
+Update to admin.html form:
+
+HTML
+<div>
+    <label class="block text-sm font-bold">Target City (File Name)</label>
+    <select id="targetCity" class="w-full p-2 border rounded">
+        <option value="madurai">Madurai</option>
+        <option value="kanchi">Kanchi</option>
+        <option value="kumbakonam">Kumbakonam</option>
+        <option value="thanjavur">Thanjavur</option>
+    </select>
+</div>
+Then, in your admin.js, you can update the copyJSON alert to tell you exactly which file to paste it into:
+
+JavaScript
+function copyJSON() {
+    const city = document.getElementById('targetCity').value;
+    const jsonArea = document.getElementById('jsonResult');
+    jsonArea.select();
+    document.execCommand('copy');
+    alert(`JSON copied! Now paste this into your data/${city}.json file.`);
+}
+This setup allows you to scale the community program to as many cities as you like across Tamil Nadu. You just need to keep adding the JSON files and updating the main dropdown.
+
+
+

@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name_en": "Kaveri Delta Guides",
+        "name_ta": "காவிரி டெல்டா வழிகாட்டிகள்",
+        "service_en": "Tour Guide",
+        "service_ta": "சுற்றுலா வழிகாட்டி",
+        "rates_en": "₹1000 per day",
+        "rates_ta": "ஒரு நாளைக்கு ₹1000",
+        "phone": "919486106299"
+    },
+    {
+        "id": 2,
+        "name_en": "Mahamaham Residency",
+        "name_ta": "மகாமகம் ரெசிடென்சி",
+        "service_en": "Homestay",
+        "service_ta": "தங்கும் விடுதி",
+        "rates_en": "₹2000 / night",
+        "rates_ta": "இரவு ஒன்றுக்கு ₹2000",
+        "phone": "919486106299"
+    }
+]

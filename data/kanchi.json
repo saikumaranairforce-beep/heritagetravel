@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name_en": "Silk City Travels",
+        "name_ta": "சில்க் சிட்டி டிராவல்ஸ்",
+        "service_en": "Cab/Auto",
+        "service_ta": "டாக்ஸி/ஆட்டோ",
+        "rates_en": "₹15/km",
+        "rates_ta": "கி.மீ-க்கு ₹15",
+        "phone": "919486106299"
+    },
+    {
+        "id": 2,
+        "name_en": "Temple View Homestay",
+        "name_ta": "டெம்பிள் வியூ ஹோம்ஸ்டே",
+        "service_en": "Homestay",
+        "service_ta": "தங்கும் விடுதி",
+        "rates_en": "₹1800 / night",
+        "rates_ta": "இரவு ஒன்றுக்கு ₹1800",
+        "phone": "919486106299"
+    }
+]
